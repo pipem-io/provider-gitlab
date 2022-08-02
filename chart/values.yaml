@@ -1,0 +1,9 @@
+image: docker.pipem.io/provider-gitlab
+version: VERSION
+
+replicas: 1
+
+log:
+  level: "info"
+
+provider: gitlab
